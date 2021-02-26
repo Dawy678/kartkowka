@@ -2,7 +2,14 @@ const arr = new Array(1, 15, 150, 1500, "Jan", 5525, "Henryk")
 
 // Zad 1
 
+
+// tu jest pierwsza możliwość
 console.log(arr)
+
+// tu jest druga możliwość
+arr.forEach(item => {
+        console.log(item)
+})
 
 
 // Zad 2
